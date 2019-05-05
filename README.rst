@@ -34,21 +34,14 @@ Usage
    {% load pygmentize %}
    <html>
    <head>
-       <title>{{ snippet.title}} - djangosnippets</title>
-       <style>{% pygments_css %}</style>
-       <!-- other header tags -->
+       <title>{{ title }}</title>
+       <style>{% pygments_css %}</style>  <!-- load css for pygments -->
    </head>
 
    <body>
       <div class="container">
-          <h2 class="title">{{ snippet.title }} by {{ snippet.created_by.username }}</h2>
-
           <div class="sourcecode">
-              {{ snippet.code|pygmentize:"python3" }}
-          </div>
-
-          <div>
-              {{ snippet.description }}
+              {{ code|pygmentize:"python3" }}  <!-- highlighting -->
           </div>
       </div>
    </body>
