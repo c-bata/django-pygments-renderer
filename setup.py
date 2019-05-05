@@ -8,7 +8,7 @@ setup(
     name='django-pygments-renderer',
     version='0.0.1',
     packages=find_packages(),
-    description='',
+    description='Provides functionality for syntax highlighting using Pygments.',
     long_description=README,
     author='Masashi Shibata',
     author_email='contact@c-bata.link',

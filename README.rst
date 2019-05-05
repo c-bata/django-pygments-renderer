@@ -1,7 +1,7 @@
 django-pygments-renderer
 ========================
 
-Provides functionality to render pygments-styled source code.
+Provides functionality for syntax highlighting using `Pygments <http://pygments.org/>`_ .
 
 .. figure:: ./example.png
 
@@ -55,7 +55,7 @@ Usage
    </html>
 
 
-Related projects
+Similar projects
 ----------------
 
 * https://github.com/richardcornish/django-pygmentify
