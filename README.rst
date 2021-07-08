@@ -9,7 +9,7 @@ Provides functionality for syntax highlighting using `Pygments <http://pygments.
 Installation
 ------------
 
-django-pygments-renderer requires python 3.6 or later and Django 2.0 or later.
+django-pygments-renderer requires python 3.6 or later and Django 2.2 or later.
 
 .. code-block:: console
 
@@ -59,7 +59,7 @@ Development
 -----------
 
 * lint: ``tox -e flake8`` or ``flake8``
-* test: ``tox -e py37`` or ``DJANGO_SETTINGS_MODULE=test_settings python -m django test``
+* test: ``tox -e py39`` or ``DJANGO_SETTINGS_MODULE=test_settings python -m django test``
 
 License
 -------
